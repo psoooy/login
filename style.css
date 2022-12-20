@@ -1,3 +1,11 @@
-body {
-    background-color: darkcyan;
+li{
+    list-style: none;
+    display: flex;
 }
+
+.blind{
+    position: absolute;
+}
+
+
+
