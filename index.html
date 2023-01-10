@@ -1,70 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="login_wrap">
-        <div class="header">
-            <div class="login_logo">
-                <a href="https://www.naver.com">
-                    <h1 class="blind">NAVER</h1>
-                </a>
+    <div class="box">
+        <div class="form">
+            <h2>Sign in</h2>
+            <div class="inputBox">
+                <input type="text" required="requirted">
+                <span>Username</span>
+                <i></i>
             </div>
-        </div>
-        <div class="login_banner">
-            <ul class="login_menu">
-               <li>ID 로그인</li>
-               <li>일회원 번호</li>
-               <li>QR 코드</li> 
-            </ul>
-            <div class="login">
-                <div class="login_input">
-                    <input type="text" placeholder="아이디">
-                    <input type="password" placeholder="비밀번호">
-                </div>
-                <div class="login_security">
-                    <label class="security" for="checkbox_login">
-                        <input class="keep_login" type="checkbox">로그인 상태 유지
-                    </label>
-                    <label class="ip"for="checkbox">
-                        <input class="ip_security" type="checkbox">IP 보안
-                    </label>
-                </div>
+            <div class="inputBox">
+                <input type="password" required="requirted">
+                <span>Password</span>
+                <i></i>
             </div>
-            <div class="btn_login">
-                <button type="button">로그인</button>
+            <div class="links">
+                <a href="#">Forgot Password</a>
+                <a href="#">Signup</a>
             </div>
-            <ul class="login_bottomarea">
-                <li><a href="#">비밀번호 찾기</a></li>
-                <li><a href="#">아이디 찾기</a></li>
-                <li><a href="#">회원가입</a></li>
-            </ul>
-        </div> 
-        <div class="login_ad">
-            <a href="#">
-                <img src="#" alt="ad">
-            </a>
-        </div>
-        <div class="login_footer">
-            <ul class="footer_1">
-               <li>이용약관</li>
-               <li>개인정보처리방침</li>
-               <li>책임의 한계와 법적고지</li>
-               <li>회원정보 고객센터</li> 
-            </ul>
-            <div class="footer_2">
-                <a href="https://www.naver.com">
-                    <span class="footer_logo">
-                        <span class="blind">NAVER</span>
-                    </span>
-                </a>
-                <span>Copyright<span>&copy;NAVER Corp.</span>All Rights Reserved.</span>
-            </div>
+            <input class="button" type="submit" value="Login">
         </div>
     </div>
 </body>
